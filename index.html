@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İNCİ - Fal Uygulaması</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Georgia, serif; background: #0c0a14; color: #e8dcc8; min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+    header { width: 100%; padding: 24px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(220,180,120,0.15); }
+    .logo { font-size: 1.4rem; letter-spacing: 6px; color: #d4a843; font-weight: bold; }
+    nav a { color: #8a7d6a; text-decoration: none; margin-left: 24px; font-size: 0.85rem; font-family: sans-serif; }
+    .hero { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 80px 24px; max-width: 640px; }
+    .pearl { width: 72px; height: 72px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #f0c96a, #d4a843 60%, #8a6820); margin-bottom: 32px; box-shadow: 0 0 40px rgba(212,168,67,0.3); }
+    h1 { font-size: 3rem; letter-spacing: 8px; color: #f0c96a; margin-bottom: 16px; }
+    .subtitle { font-size: 1.1rem; color: #8a7d6a; line-height: 1.8; font-family: sans-serif; margin-bottom: 40px; }
+    .badges { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-bottom: 60px; }
+    .badge { background: rgba(212,168,67,0.1); border: 1px solid rgba(212,168,67,0.3); color: #d4a843; padding: 10px 24px; border-radius: 999px; font-size: 0.85rem; font-family: sans-serif; }
+    .features { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: 60px; }
+    .feature { background: rgba(255,255,255,0.03); border: 1px solid rgba(220,180,120,0.12); border-radius: 16px; padding: 24px 20px; width: 160px; text-align: center; }
+    .feature-icon { font-size: 1.8rem; margin-bottom: 10px; }
+    .feature-name { font-size: 0.85rem; color: #e8dcc8; font-family: sans-serif; }
+    footer { width: 100%; padding: 24px 40px; border-top: 1px solid rgba(220,180,120,0.1); display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; }
+    footer a { color: #8a7d6a; font-size: 0.8rem; text-decoration: none; font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">İNCİ</div>
+    <nav>
+      <a href="privacy-policy.html">Gizlilik</a>
+      <a href="mailto:savcioglumuzaffer@gmail.com">İletişim</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="pearl"></div>
+    <h1>İNCİ</h1>
+    <p class="subtitle">Yapay zeka destekli kişiselleştirilmiş fal deneyimi.<br>Kahve falı, tarot, el falı ve rüya yorumu.</p>
+    <div class="badges">
+      <span class="badge">📱 iOS & Android</span>
+      <span class="badge">🔮 Yapay Zeka</span>
+      <span class="badge">✨ Kişiselleştirilmiş</span>
+    </div>
+    <div class="features">
+      <div class="feature"><div class="feature-icon">☕</div><div class="feature-name">Kahve Falı</div></div>
+      <div class="feature"><div class="feature-icon">🃏</div><div class="feature-name">Tarot</div></div>
+      <div class="feature"><div class="feature-icon">🤚</div><div class="feature-name">El Falı</div></div>
+      <div class="feature"><div class="feature-icon">🌙</div><div class="feature-name">Rüya Yorumu</div></div>
+    </div>
+  </div>
+  <footer>
+    <a href="privacy-policy.html">Gizlilik Politikası</a>
+    <a href="privacy-policy.html">Kullanım Koşulları</a>
+    <a href="mailto:savcioglumuzaffer@gmail.com">İletişim</a>
+    <a href="data-deletion.html">Veri Silme</a>
+  </footer>
+</body>
+</html>
